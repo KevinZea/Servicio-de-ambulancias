@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+import logo from './img/logo.jpeg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+        <div className="texto">
+        <h1>Servicio de ambulancias particulares</h1>
+        <span>Somos un servicio de ambulancias particulares, las cuales brindan servicios de emergencia o entretenimiento
+          a distintos tipos de eventos a nivel nacional
+        </span>
+        </div>
+        <div className="logo">
+          <img src={logo}></img>
+        </div>
       </header>
     </div>
   );
