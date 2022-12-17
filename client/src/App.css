@@ -17,14 +17,64 @@ body{
   padding: 30px;
 }
 .logo img{
-  width: 200px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: red;
 }
 .texto{
+  padding: 10px;
   color: aliceblue;
 }
 .texto span{
   font-size: 25px;
+}
+.introduction{
+  display: flex;
+}
+
+.introduction h1{
+  padding: 5px;
+  color: red;
+}
+.text-introduction{
+  width: 50%;
+  padding: 20px;
+}
+.ambulancia{
+  width: 350px;
+  height: 250px;
+  padding: 20px;
+  
+}
+.ambulancia img{
+  width: 100%;
+  height: 100%;
+  border-radius: 250px;
+}
+
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 20px;
+}
+.cards h3{
+  color: blue;
+}
+.card-one{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(132, 221, 224);
+  padding: 5px;
+}
+.card-two{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(58, 227, 233);
+  padding: 5px;
 }
 
 .App-header {
