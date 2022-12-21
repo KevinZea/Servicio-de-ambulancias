@@ -12,6 +12,8 @@ import eventoCuatro from './img/evento4.jpeg'
 
 import videoUno from './img/video1.mp4'
 
+import icono from './img/iconoW.png'
+
 import ReactPlayer from 'react-player'
 
 import './App.css';
@@ -69,19 +71,19 @@ function App() {
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src={ambulanciaUno} class="d-block w-100" alt="..."/>
+              <img src={ambulanciaUno} class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-            <img src={ambulanciaDos} class="d-block w-100" alt="..."/>
+              <img src={ambulanciaDos} class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-            <img src={ambulanciaTres} class="d-block w-100" alt="..."/>
+              <img src={ambulanciaTres} class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-            <img src={ambulanciaCuatro} class="d-block w-100" alt="..."/>
+              <img src={ambulanciaCuatro} class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-            <img src={ambulanciaCinco} class="d-block w-100" alt="..."/>
+              <img src={ambulanciaCinco} class="d-block w-100" alt="..." />
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -107,9 +109,22 @@ function App() {
         </div>
         <h2>Con Videos:</h2>
         <div className="videos">
-          <ReactPlayer url={videoUno} controls/>
+          <ReactPlayer url={videoUno} controls width='100%' height='80%' />
+          <br></br>
+          <br></br>
+          <ReactPlayer url={videoUno} controls width='100%' height='80%' />
+          <br></br>
+          <br></br>
+          <ReactPlayer url={videoUno} controls width='100%' height='80%' />
         </div>
       </div>
+      <div className='contact'>
+        <a href='https://api.whatsapp.com/send?phone=573103391442'>Escribenos +57 3103391442</a>
+        <img src={icono}></img>
+      </div>
+      <br></br>
+      <br></br>
+
     </div>
   );
 }

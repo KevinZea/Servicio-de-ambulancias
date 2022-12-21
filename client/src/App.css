@@ -13,13 +13,13 @@
   display: flex;
   justify-content:space-around;
 }
-
 body{
   background-color: rgb(197, 233, 234);
 
 }
 .logo{
   padding: 30px;
+  width: 100%;
 }
 .logo img{
   width: 400px;
@@ -61,6 +61,7 @@ body{
 
 
 .cards{
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
@@ -94,6 +95,7 @@ body{
 }
 
 .slider{
+  width: 100%;
   color: red;
   text-align: center;
   padding: 20px;
@@ -121,5 +123,73 @@ body{
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   padding: 15px;
-  width: 1000px;
+  width: 100%;
+}
+
+.videos{
+  width: 80%;
+  height: 700px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.react-player{
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contact{
+  padding: 10px;
+  text-align: center;
+  margin-top: 1100px;
+  background-color: gray;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  font-size: 30px;
+  color: red;
+  text-decoration: none;
+}
+.contact a{
+  text-decoration: none;
+  color: red;
+}
+
+.contact img{
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+}
+
+@media (max-width: 600px){
+  .header{
+    display: block;
+  }
+  .texto h1{
+    text-align: center;
+  }
+  .header h1{
+    font-size: 50px;
+  }
+  .header span{
+    padding: 10px;
+  }
+  .logo img{
+    width: 100%;
+    height: 50%;
+  }
+  .cards{
+  grid-template-columns: repeat(2, 1fr);
+  }
+  .slider h1{
+    font-size: 60px;
+  }
+  .imagenes{
+  grid-template-columns: repeat(1, 1fr);
+  }
 }
