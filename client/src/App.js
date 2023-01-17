@@ -10,7 +10,7 @@ import eventoDos from './img/evento2.jpeg'
 import eventoTres from './img/evento3.jpeg'
 import eventoCuatro from './img/evento4.jpeg'
 
-import videoUno from './img/video1.mp4'
+import videoUno from './img/videos/videoUno.mp4'
 
 import icono from './img/iconoW.png'
 
@@ -109,13 +109,9 @@ function App() {
         </div>
         <h2>Con Videos:</h2>
         <div className="videos">
-          <ReactPlayer url={videoUno} controls width='100%' height='80%' />
-          <br></br>
-          <br></br>
-          <ReactPlayer url={videoUno} controls width='100%' height='80%' />
-          <br></br>
-          <br></br>
-          <ReactPlayer url={videoUno} controls width='100%' height='80%' />
+          <video controls name="media">
+            <source src={videoUno} type="video/mp4"></source>
+          </video>
         </div>
       </div>
       <div className='contact'>
