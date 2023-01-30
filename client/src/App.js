@@ -13,6 +13,8 @@ import eventoCuatro from './img/evento4.jpeg'
 import videoUno from './img/videos/videoUno.mp4'
 
 import icono from './img/iconoW.png'
+import iconoS from './img/iconoS.png'
+
 
 import ReactPlayer from 'react-player'
 
@@ -35,6 +37,10 @@ function App() {
       <div className="introduction">
         <div className="ambulancia">
           <img src={ambulanciaUno}></img>
+        </div>
+        <br></br>
+        <div className='salud'>
+          <img src={iconoS}></img>
         </div>
         <div className="text-introduction">
           <h1>Que todos estén protegidos ¡es nuestra misión!</h1>
@@ -117,6 +123,10 @@ function App() {
       <div className='contact'>
         <a href='https://api.whatsapp.com/send?phone=573103391442'>Escribenos +57 3103391442</a>
         <img src={icono}></img>
+      </div>
+      <br></br>
+      <div className='correo'>
+        <span>ambulanciasparticulares1975@gmail.com</span>
       </div>
       <br></br>
       <br></br>
