@@ -7,97 +7,160 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header{
-  background-color: rgba(241, 58, 58, 0.777);
-  margin-top: -20px;
+  background-color: rgb(151, 3, 3);
   width: 100%;
   display: flex;
   justify-content:space-around;
 }
 body{
-  background-color: rgb(197, 233, 234);
+  background-color: rgb(220, 254, 255);
 
 }
 .logo{
-  padding: 30px;
-  width: 100%;
+  width: 35%;
+  height: auto;
+  margin:20px;
 }
 .logo img{
-  width: 400px;
-  height: 200px;
-  border-radius: 2px;
-  border-style: solid;
-  border-color: red;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px rgb(216, 85, 85);
 }
 .texto{
-  padding: 10px;
+  margin: 20px;
+  color: aliceblue;
+  font-size: 100px;
+  text-align: center;
+  border: 2px solid;
+  border-color: aliceblue;
+  border-radius: 10px;
+  background-color: rgb(164, 50, 50);
+}
+.texto h1{
+  font-size: 60px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.texto h2{
+  color: blue;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.intro{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: orangered;
+  padding: 30px;
+  border: 2px solid;
+  border-color: aliceblue;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px aliceblue;
+}
+.intro h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
   color: aliceblue;
 }
-.texto span{
-  font-size: 25px;
-}
 .introduction{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5px;
-  padding: 5px;
+  display: flex;
   width: 100%;
 }
 
-.introduction h1{
-  padding: 5px;
-  color: red;
-  
-}
 .text-introduction{
-  margin-top: -200px;
-  width: 100%;
-  padding: 5px;
+  width: 60%;
+  margin: 30px;
+  background-color: yellow;
+  border: 2px solid;
+  border-color: aliceblue;
+  border-radius: 20px;
+  padding: 20px;
+  height: max-content;
+  box-shadow: 2px 2px 2px gray;
+}
+.text-introduction span{
+  font-size: 20px;
+  color: orangered;
+}
+.text-introduction h1{
+  color: red;
 }
 .ambulancia{
-  width: 350px;
-  height: 250px;
+  width: 75%;
+  height: auto;
   padding: 5px;
-  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 .ambulancia img{
   width: 100%;
   height: 100%;
-  border-radius: 250px;
+  border-radius: 10px;
 }
-.salud{
-  margin-left: 50px;
-  width: 250px;
-  height: 250px;
-  padding: 5px;
-}
-.salud img{
+.saludIntroduction img{
   width: 100%;
   height: 100%;
-  border-radius: 250px;
+}
+.saludIntroduction{
+  width: 60%;
+  padding: 20px;
+}
+.contactWhatsapp{
+  background-color: green;
+  text-align: center;
+  width: 150px;
+  border-radius: 20px;
+}
+.contactWhatsapp a{
+  color: aliceblue;
+  text-decoration: none;
 }
 
 
 .cards{
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
   padding: 20px;
 }
 .cards h3{
   color: blue;
 }
 .card-one{
-  width: 100%;
+  width: 70%;
   height: 100%;
   background-color: rgb(132, 221, 224);
-  padding: 5px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 2px gray;
 }
 .card-two{
-  width: 100%;
+  width: 70%;
   height: 100%;
   background-color: rgb(58, 227, 233);
-  padding: 5px;
+  padding:20px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 2px gray;
+}
+.imageCard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px gray;
+}
+.imageCard{
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .App-header {
