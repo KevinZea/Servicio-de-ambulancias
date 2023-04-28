@@ -30,7 +30,6 @@ body{
 .texto{
   margin: 20px;
   color: aliceblue;
-  font-size: 100px;
   text-align: center;
   border: 2px solid;
   border-color: aliceblue;
@@ -38,13 +37,13 @@ body{
   background-color: rgb(164, 50, 50);
 }
 .texto h1{
-  font-size: 60px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
 }
 .texto h2{
   color: blue;
-  font-size: 50px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
 }
 .intro{
   width: 70%;
@@ -113,6 +112,7 @@ body{
   text-align: center;
   width: 150px;
   border-radius: 20px;
+  height: max-content;
 }
 .contactWhatsapp a{
   color: aliceblue;
@@ -193,17 +193,41 @@ body{
   color: red;
   text-align: center;
 }
+.textEventos{
+  margin: 30px;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 1px gray;
+  padding: 20px;
+  border-radius: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.textEventos h1{
+  padding: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+}
+.textEventos:hover{
+  background-color: orangered;
+  color: antiquewhite;
+}
 .imagenes img{
   width: 100%;
   height: 100%;
-  border-radius: 500px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px gray;
 }
 .imagenes{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 60px;
   padding: 15px;
-  width: 100%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagenes img:hover{
+  transform: scale(1.2);
+  transition: 0.8s;
 }
 
 .videos{
@@ -215,63 +239,87 @@ body{
 
 
 .contact{
-  padding: 10px;
-  margin-top: 20px;
+  width: 100%;
+  background-color: aquamarine;
+  height: max-content;
+  padding: 30px;
+}
+.contactWhats{
+  background-color: green;
   text-align: center;
-  background-color: gray;
-  width: 50%;
+  width: 70%;
+  border-radius: 20px;
+  height: max-content;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 25px;
-  font-size: 30px;
-  color: red;
-  text-decoration: none;
+  font-size: 50px;
 }
-.contact a{
+.contactWhats:hover{
+  box-shadow: 3px 3px 3px gray;
+  border: 2px solid;
+  border-color: wheat;
+  background-color:orangered;
+}
+.contactWhats a:hover{
+  color: green;
+}
+.contactWhats a{
   text-decoration: none;
-  color: red;
+  color: aliceblue;
 }
 
-.contact img{
-  width: 70px;
-  height: 70px;
-  padding: 10px;
-}
-video{
-  border-radius: 100px;
+.videos video{
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px gray;
+  border: 1px solid;
+  border-color: aliceblue;
 }
 .correo{
-  width: 50%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  background-color: aquamarine;
-  color: blue;
+  background-color: red;
   text-align: center;
-  padding: 20px;
-  font-size: 25px;
-  border-radius: 50px;
+  border-radius: 20px;
+}
+.correo a {
+  color: antiquewhite;
   text-decoration: none;
+  font-size: 50px;
+}
+.correo:hover{
+  background-color: antiquewhite;
+  border: 2px solid;
+  border-color: red;
+  color: red;
+}
+.correo a:hover{
+  color: red;
 }
 
 @media (max-width: 600px){
   .header{
     display: block;
+    height: max-content;
+    padding: 20px;
   }
   .texto h1{
     text-align: center;
-  }
-  .header h1{
-    font-size: 50px;
-  }
-  .header span{
-    padding: 10px;
+    font-size: 40px;
   }
   .logo img{
     width: 100%;
-    height: 50%;
+    height: 100%;
+  }
+  .logo{
+    width: 250px;
+  }
+  .intro{
+    width: 95%;
+    margin-bottom: 20px;
   }
   .cards{
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   }
   .slider h1{
     font-size: 60px;
