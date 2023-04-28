@@ -38,12 +38,12 @@ body{
 }
 .texto h1{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 50px;
+  font-size: 80px;
 }
 .texto h2{
   color: blue;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 40px;
+  font-size: 70px;
 }
 .intro{
   width: 70%;
@@ -98,6 +98,10 @@ body{
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+.ambulancia img:hover{
+  transform: rotate(5deg);
+  transition: 0.5s;
 }
 .saludIntroduction img{
   width: 100%;
@@ -321,6 +325,12 @@ body{
   .cards{
   grid-template-columns: repeat(1, 1fr);
   }
+  .card-one{
+    width: 95%;
+  }
+  .card-two{
+    width: 95%;
+  }
   .slider h1{
     font-size: 60px;
   }
@@ -328,9 +338,9 @@ body{
   grid-template-columns: repeat(1, 1fr);
   }
   .correo{
-    width: 90%;
+    width: 95%;
   }
-  .correo span{
+  .correo a{
     font-size: 17px;
     text-decoration: none;
   }
@@ -341,8 +351,22 @@ body{
     width: 100%;
     margin-left: -10px;
   }
+  .introduction{
+    display:flexbox;
+    flex-direction: column-reverse;
+  }
+  
+  .saludIntroduction{
+    width: 100%;
+  }
   .text-introduction{
-    margin-top: -250px;
-    margin-left: auto;
+    width: 95%;
+    margin: auto;
+  }
+  .contactWhats{
+    width: 95%;
+  }
+  .contactWhats a{
+    font-size: 35px;
   }
 }

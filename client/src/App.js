@@ -12,7 +12,6 @@ import eventoCuatro from './img/evento4.jpeg'
 
 import videoUno from './img/videos/videoUno.mp4'
 
-import icono from './img/iconoW.png'
 import iconoS from './img/iconoS.png'
 
 import cardOne from './img/cardOne.jpg'
