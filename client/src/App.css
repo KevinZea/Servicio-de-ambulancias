@@ -286,6 +286,8 @@ body{
   grid-template-columns: repeat(3, 1fr);
   background-color: brown;
   padding: 40px;
+  overflow: scroll;
+  gap: 20px;
 }
 .videos video{
   border-radius: 30px;
