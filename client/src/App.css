@@ -447,4 +447,27 @@ body{
     width: 100%;
     overflow:scroll;
   }
+  .videoAmbulancia{
+    display:flexbox;
+    flex-direction: column-reverse;
+    margin: auto;
+    padding: 30px;
+  }
+  .infoVideo{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .videoAmbulancia{
+    margin: 10px;
+    margin-top: 50px;
+    width: 95%;
+  }
+  .videoPresentacionAmbulancia{
+    width: 95%;
+  }
+  .videos{
+    overflow: scroll;
+    gap: 20px;
+  }
 }
