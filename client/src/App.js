@@ -256,7 +256,9 @@ function App() {
         </div>
       </div>
 
-      <br></br>
+      <div>
+        
+      </div>
       <div className='contact'>
         <div className='infoContact'>
           <h4>Telefono: +57 3103391442

@@ -316,8 +316,6 @@ body{
 }
 .correo:hover{
   background-color: antiquewhite;
-  border: 2px solid;
-  border-color: red;
   color: red;
 }
 .correo a:hover{
