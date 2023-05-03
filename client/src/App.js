@@ -33,8 +33,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-
-
       <header className="header">
         <div className="logo">
           <img src={logo}></img>
@@ -48,8 +46,7 @@ function App() {
 
 
       <div className='intro'>
-        <h2>Somos un servicio de ambulancias particulares, las cuales brindan servicios de emergencia o entretenimiento
-          a distintos tipos de eventos a nivel nacional</h2>
+        <h2>Somos un servicio de ambulancias particulares los cuales  brindamos traslado de ambulancias Basicas y medicalizada, cubrimos eventos deportivos,culturales y sociales a nivel nacional</h2>
       </div>
 
 
@@ -66,10 +63,10 @@ function App() {
         <div className="text-introduction">
           <h1>Que todos estén protegidos ¡es nuestra misión!</h1>
           <br></br>
-          <span>Es un servicio diseñado para proteger a todos los empleados, clientes, proveedores
-            y visitantes ante cualquier situación de riesgo, dentro de un área específica, brindando
-            atención pre-hospitalaria de emergencia y urgencia las 24 horas del día, los 365 días del año.
+          <span>es un servicio para agilizar el traslado de los usuarios de forma rápida y segura 
+            con todos los equipamientos establecidos por norma
           </span>
+          <br></br>
           <br></br>
           <div className='contactWhatsapp'>
             <a href='https://api.whatsapp.com/send?phone=573103391442' target='_blank'>Escribenos
@@ -90,6 +87,7 @@ function App() {
           <h3>Atención segura y ágil</h3>
           <span>a través de nuestra central de referencia, por medio de una línea telefónica exclusiva
             asignada a la empresa.</span>
+          <h4>+57 3103391442</h4>
           <br></br>
           <br></br>
           <div className='contactWhatsapp'>
@@ -102,10 +100,10 @@ function App() {
         </div>
         <div className="card-two">
           <div className='imageCard'>
-            <img src={cardTwo}></img>
+            <img src={eventoDos}></img>
           </div>
-          <h3>Personal capacitado en APH</h3>
-          <span>entrenado en el cumplimiento de la Resolución 0705 del 2007.</span>
+          <h3>Personal capacitado</h3>
+          <span>Se ofrece servicios de paramédicos</span>
           <br></br>
           <br></br>
           <div className='contactWhatsapp'>
@@ -121,27 +119,8 @@ function App() {
             <img src={cardTre}></img>
           </div>
           <h3>Traslado en ambulancia</h3>
-          <span>básica o medicalizada para los pacientes,
-            que a necesidad del área usuaria y que con base en el
-            Triage Prehospitalario lo requieran.</span>
+          <span>Traslado en ambulancia Basica o medicalizada para pacientes.</span>
           <br></br>
-          <br></br>
-          <div className='contactWhatsapp'>
-            <a href='https://api.whatsapp.com/send?phone=573103391442' target='_blank'>Escribenos
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div className="card-two">
-          <div className='imageCard'>
-            <img src={cardF}></img>
-          </div>
-          <h3>Teleorientación</h3>
-          <span>atendida por el personal específicamente preparado para brindar información,
-            asesoría y acompañamiento a los pacientes.</span>
-          <br />
           <br></br>
           <div className='contactWhatsapp'>
             <a href='https://api.whatsapp.com/send?phone=573103391442' target='_blank'>Escribenos
@@ -200,11 +179,8 @@ function App() {
           <source src={videoAmbulancia} type="video/mp4"></source>
         </video>
         <div className='infoVideo'>
-          <h2>Nuestras Ambulancias por dentro:</h2>
-          <p>En este breve video se muestra como es una de nuestras ambulancias
-            puliendose para estar lista en las mejores condiciones para ser usada,
-            tambien se puede apreciar de sus debidas especificacion y con los mas
-            altos estandares de atención al paciente.
+          <h2>Dotación de Nuestras Ambulancias</h2>
+          <p>En este breve vídeo se muestra como una de nuestras ambulancias se dota para prestar un servicio idoneo
           </p>
           <div className='contactWhatsapp'>
             <a href='https://api.whatsapp.com/send?phone=573103391442' target='_blank'>Escribenos
@@ -226,7 +202,7 @@ function App() {
 
       <div className="eventos">
         <div className='textEventos'>
-          <h1>Eventos</h1>
+          <h1>Eventos a nivel nacional</h1>
           <span>Estos han sido algunos de los eventos en los que hemos participado con nuestros servicios.</span>
         </div>
         <div className="imagenes">
@@ -241,7 +217,7 @@ function App() {
         <br></br>
         <div className='videosEventos'>
           <div className='textEventos'>
-            <h1>Videos en eventos que hemos participado</h1>
+            <h1>Videos en eventos prestados a nuestros proveedores</h1>
           </div>
           <div className="videos">
             <video controls name="media">
@@ -258,7 +234,7 @@ function App() {
       </div>
 
       <div>
-        
+
       </div>
       <div className='contact'>
         <div className='infoContact'>

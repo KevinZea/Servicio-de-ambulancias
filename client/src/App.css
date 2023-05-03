@@ -71,7 +71,7 @@ body{
 .text-introduction{
   width: 60%;
   margin: 30px;
-  background-color: yellow;
+  background-color: rgb(0, 60, 255);
   border: 2px solid;
   border-color: aliceblue;
   border-radius: 20px;
@@ -81,7 +81,7 @@ body{
 }
 .text-introduction span{
   font-size: 20px;
-  color: orangered;
+  color: rgb(249, 248, 248);
 }
 .text-introduction h1{
   color: red;
