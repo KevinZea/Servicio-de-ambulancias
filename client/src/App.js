@@ -3,7 +3,7 @@ import ambulanciaUno from './img/ambulancia1.jpeg'
 import ambulanciaDos from './img/ambulancia2.jpeg'
 import ambulanciaTres from './img/ambulancia3.jpeg'
 import ambulanciaCuatro from './img/ambulancia4.jpeg'
-import ambulanciaCinco from './img/ambulancia5.jpeg'
+// import ambulanciaCinco from './img/ambulancia5.jpeg'
 import ambulanciaSeis from './img/ambulancia6.jpeg'
 import ambulanciaSiete from './img/ambulancia7.jpeg'
 import ambulanciaOcho from './img/ambulancia8.jpeg'
@@ -149,9 +149,9 @@ function App() {
             <div class="carousel-item">
               <img src={ambulanciaCuatro} class="d-block w-100" alt="..." />
             </div>
-            <div class="carousel-item">
+            {/* <div class="carousel-item">
               <img src={ambulanciaCinco} class="d-block w-100" alt="..." />
-            </div>
+            </div> */}
             <div class="carousel-item">
               <img src={ambulanciaSeis} class="d-block w-100" alt="..." />
             </div>
